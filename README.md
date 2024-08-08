@@ -128,6 +128,12 @@ create_request_file('retrieve_reviews.txt', 'Action: RetrieveReviews\nBookTitle:
 
 ```
 Please change the Booktitle to the one that you want. Those time.sleep(1) is to help the program load before doing the retrieve, so please don't delete them.
+
+# Run the microservice
+
+```
+python review_service.py
+```
 # The UML diagram
 it explained how requesting and receiving data works using text files for the review microservice:
 
