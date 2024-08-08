@@ -1,11 +1,11 @@
 # Kiara-s-Library-website
 It allows the user to submit reviews for books and processes all the reviews by storing them in book-specific files.
 
-### Requesting Data
+# Requesting Data
 
 To request data from the microservice, you will need to create a request text file in the 'requests' directory. Depend on what you want to make either retrieve or create review. It will be slightly different.
 
-# Create a book review
+###  Create a book review
 
 the text file under the 'request' needed to be 'submit_review.txt'
 ```
@@ -24,7 +24,7 @@ Review: It was boring
 Stars: 1
 ```
 
-# Retrieve Book's review
+###  Retrieve Book's review
 
 the text file under the 'request' needed to be 'retrieve_reviews.txt' (remember the 's' for the reveiw)
 ```
@@ -42,7 +42,7 @@ BookTitle : Matilda
 
 The review microservice will extract the data from the requests and generate the response text file under the 'responses' directory. For the submit review, it will also update that specific book review under 'book_reviews' directory.
 
-# Response for submitting review
+###  Response for submitting review
 
 It will show whether it is success or fail message. 
 
@@ -55,7 +55,7 @@ Message: Review added successfully to 'Tom and Jerry'.
 Message: Invalid review format.
 ```
 
-# Response for retrieving the review
+###  Response for retrieving the review
 
 For retrieving review, it will be using the Json format.
 ```
